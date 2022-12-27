@@ -1,0 +1,123 @@
+body {
+	font-family: Verdana, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	background-color: #eae7dc;
+}
+
+.navlinks {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navlinks ul {
+	list-style: none;
+	background-color: #e98074;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	border-bottom: 3px solid goldenrod;
+}
+
+.navlinks li {
+	display: inline-block;
+}
+
+.navlinks a {
+	text-decoration: none;
+	color: darkslategray;
+	display: block;
+	padding: 30px 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navlinks a:hover {
+	background-color: #eae7dc;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	color: #e98074;
+}
+
+/*format content*/
+.home-content {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+/*format content title container*/
+.home-content-title-container {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 1rem;
+    background-color: #eae7dc;
+    box-shadow: rgba(190, 80, 120) 0px 5px 15px;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+/*format content title container header*/
+.home-content-title-container h1 {
+    font-family: Verdana;
+    font-size: 2.5rem;
+}
+
+/*formatting content blurb title*/
+.home-content-blurb-title {
+    text-align: center;
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+/*format content on main page*/
+.home-content-blurb {
+    background-color: #eae7dc;
+    padding: 1rem;
+    max-width: 80%;
+    margin: auto;
+    box-shadow: rgba(190, 80, 120) 0px 5px 15px;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+/*format title*/
+.home-content-blurb-title {
+    text-align: center;
+    margin-bottom: 0.3rem;
+    color: darkslategray;
+}
+
+/*format paragraph content*/
+.home-content-blurb article p {
+    margin: 0.75rem 0.75rem 0.75rem 0.75rem;
+    word-wrap: break-word;
+    font-size: 20px;
+    line-height: 1.5;
+    hyphens: auto;
+    color: darkslategray;
+}
+
+footer {
+	display: block;
+	border-top: 3px solid darkgoldenrod;
+}
+
+#foot {
+		color: darkslategray;
+		padding-top: 20px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+}

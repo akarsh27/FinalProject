@@ -1,0 +1,16 @@
+#begin {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    color: darkslategray;
+    border-radius: 100%;
+    background-color: #e98074;
+    border: none;
+    margin-top: 2rem;
+    margin: auto;
+    display: block;
+}
+
+#begin a {
+    text-decoration: none;
+    color: darkslategray;
+}
